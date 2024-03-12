@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CssSheet.css">
+</head>
+
+<body>
+    <div class="outter">
+        <div class="inner-display">
+            <p id="display" readonly></p>
+        </div>
+        <div class="inner-button">
+            <button  class="key-operations" onclick="allClear()">AC</button>
+            <button  class="key-operations" onclick="elementDelete()">DEL</button>
+            <button  class="key-operations" onclick="inputToDisplay('%')">%</button>
+            <button  class="key-operations" onclick="inputToDisplay('/')">/</button>
+            <button  class="button" onclick="inputToDisplay('7')">7</button>
+            <button  class="button" onclick="inputToDisplay('8')">8</button>
+            <button  class="button" onclick="inputToDisplay('9')">9</button>
+            <button  class="key-operations" onclick="inputToDisplay('*')">*</button>
+            <button  class="button" onclick="inputToDisplay('4')">4</button>
+            <button  class="button" onclick="inputToDisplay('5')">5</button>
+            <button  class="button" onclick="inputToDisplay('6')">6</button>
+            <button  class="key-operations" onclick="inputToDisplay('-')">-</button>
+            <button  class="button" onclick="inputToDisplay('1')">1</button>
+            <button  class="button" onclick="inputToDisplay('2')">2</button>
+            <button  class="button" onclick="inputToDisplay('3')">3</button>
+            <button  class="key-operations" onclick="inputToDisplay('+')">+</button>
+            <button  class="button" onclick="inputToDisplay('0')">0</button>
+            <button  class="button" onclick="inputToDisplay('00')">00</button>
+            <button  class="button" onclick="inputToDisplay('.')">.</button>
+            <button  class="key-operations" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./Simple_Calculator.js"></script>
+</body>
+
+</html>
